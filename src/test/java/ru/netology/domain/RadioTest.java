@@ -14,8 +14,8 @@ public class RadioTest {
     void shouldChangeRadio() {
         Radio radio1 = new Radio(20);
 
-        radio1.setNumberRadioStation(15);
-        assertEquals(15, radio1.getNumberRadioStation());
+        radio1.setCurrentRadioStation(15);
+        assertEquals(15, radio1.getCurrentRadioStation());
     }
 
     @ParameterizedTest
